@@ -10,5 +10,6 @@ sudo apt-get install -y software-properties-common git python-dev htop ntp jq ap
 echo 'APT::Periodic::Enable "0";' >> /etc/apt/apt.conf.d/10periodic
 
 wget https://bootstrap.pypa.io/get-pip.py
+sudo apt-get install node-gyp
 python get-pip.py
 pip install boto awscli
